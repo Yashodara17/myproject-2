@@ -1,7 +1,9 @@
-hungry = input("Did you hungry?")
+hungry = input("Are you hungry?")
 if hungry == "Yes":
     print ("let's have lunch together")
-
 else:
-    
-    print ("Okay.I'm going to have my lunch")
+    thirsty = input("Are you thirsty?")
+    if thirsty == "Yes":
+        print ("Then let's have a drink together")
+    else:
+        print ("Okay. See you later")
